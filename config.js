@@ -287,12 +287,12 @@ config.iota = {
     /**
      * Default service, for IoT Agent installations that won't require preregistration.
      */
-    service: 'howtoService',
+    service: 'lwpubsub_schoolA',
 
     /**
      * Default subservice, for IoT Agent installations that won't require preregistration.
      */
-    subservice: '/howto',
+    subservice: '/fd00',
 
     /**
      * URL Where the IoT Agent Will listen for incoming updateContext and queryContext requests (for commands and
@@ -308,7 +308,7 @@ config.iota = {
     /**
      * Default type, for IoT Agent installations that won't require preregistration.
      */
-    defaultType: 'Thing'
+    defaultType: 'LWPUBSUB'
 };
 
 /**
