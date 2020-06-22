@@ -29,12 +29,13 @@ config.mqtt = {
     /**
      * Host where the MQTT Broker is located.
      */
-    host: 'localhost',
-
+    //host: 'localhost', //22-06-2020
+    host: 'IOTA_MQTT_HOST',
     /**
      * Port where the MQTT Broker is listening
      */
-    port: 1883,
+    //port: 1883, //22-06-2020
+    port: 'IOTA_MQTT_PORT',
 
     /**
      * User name for the IoTAgent in the MQTT broker, if authentication is activated.
