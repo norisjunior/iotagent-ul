@@ -26,7 +26,7 @@ FROM node:${NODE_VERSION}
 #ARG DOWNLOAD=latest
 ARG GITHUB_ACCOUNT=norisjunior
 ARG GITHUB_REPOSITORY=iotagent-ul
-ARG DOWNLOAD=release/1.12.0
+ARG DOWNLOAD=origin/lwpubsub-iotagent-ccm
 ARG SOURCE_BRANCH=master
 
 # Copying Build time arguments to environment variables so they are persisted at run time and can be
