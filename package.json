@@ -43,6 +43,8 @@
     "mqtt": "3.0.0",
     "request": "2.88.0",
     "underscore": "1.9.1",
+    "node-gyp-install": "2.2.0",
+    "node-pre-gyp": "0.15.0",
     "aes-ccm": "1.0.10"
   },
   "devDependencies": {
