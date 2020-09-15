@@ -42,7 +42,8 @@
     "logops": "2.1.0",
     "mqtt": "3.0.0",
     "request": "2.88.0",
-    "underscore": "1.9.1"
+    "underscore": "1.9.1",
+    "aes-ccm": "1.0.10"
   },
   "devDependencies": {
     "coveralls": "~3.0.2",

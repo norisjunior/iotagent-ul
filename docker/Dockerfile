@@ -91,7 +91,6 @@ RUN \
 	# Ensure that Git is installed prior to running npm install
 	apt-get update && \
 	apt-get install -y git && \
-	npm install aes-ccm && \
 	npm install pm2@3.2.2 -g && \
 	echo "INFO: npm install --production..." && \
 	npm install --production && \
