@@ -74,8 +74,10 @@ config.mqtt = {
 };
 
 config.amqp = {
-    host: 'localhost',
-    port: 5672,
+    //host: 'localhost', //2021-09-04
+    host: 'IOTA_AMQP_HOST',
+    //port: 5672, //2021-09-04
+    port: 'IOTA_AMQP_PORT',
     // username: 'guest',
     // password: 'guest',
     exchange: 'iota-exchange',
